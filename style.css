@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: Helvetica;
+
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: url("https://images.unsplash.com/photo-1546148217-293f105f5e6a?q=80&w=1894&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+    /* text-shadow: 0 0 30px rgb(0, 0, 0); */
+
+    color: beige;
+    text-shadow: 0 0 10px black;
+
+}
+
+.container h1{
+    font-size: 120px;
+
+    width: 100%;
+    text-align: center;
+
+    /* background-color: yellow; */
+    background: linear-gradient(to right, #0f0c299e, #302b63, #302b63, #302b63, #24243e7b);
+
+    /* color: white; */
+
+    padding: 30px;
+    margin: 20px 0;
+
+    font-style: italic;
+    font-weight: 700;
+
+
+}
+    
+.container p:first-of-type{
+    font-size: 60px;
+
+    margin-top: 20px;
+
+    font-weight: 500;
+
+    background: linear-gradient(to right, #0f0c299e, #302b63, #302b63, #302b63, #24243e7b);
+
+
+    width: 80%;
+    text-align: center;
+
+    padding: 10px;
+    border-radius: 40px;
+
+}
+    
+.container p:nth-of-type(2){
+    font-size: 40px;
+    margin: 20px;
+
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+
+    padding: 15px;
+    text-align: center;
+
+    font-weight: 500;
+
+    border-radius: 40px;
+
+    width: 1100px;
+
+}
+
+.container input{
+    font-size: 30px;
+
+    width: 30%;
+
+    text-align: center;
+
+    margin: 20px;
+}
+
+.container button{
+    font-size: 30px;
+
+    width: 20%;
+
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    /* margin: 10px; */
+}
+
+.container button:hover{
+    cursor: pointer;
+}
+
+.container #timer{
+    background-color: black;
+
+    padding: 10px;
+
+    width: 500px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    font-size: 40px;
+}
